@@ -1,0 +1,15 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+SingularSuperletPY/__init__py.py
+SingularSuperletPY/cwt.py
+SingularSuperletPY/generateData.py
+SingularSuperletPY/run.py
+SingularSuperletPY/sst.py
+SingularSuperletPY/waveletHelper.py
+SingularSuperletPY.egg-info/PKG-INFO
+SingularSuperletPY.egg-info/SOURCES.txt
+SingularSuperletPY.egg-info/dependency_links.txt
+SingularSuperletPY.egg-info/requires.txt
+SingularSuperletPY.egg-info/top_level.txt
