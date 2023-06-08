@@ -1,5 +1,5 @@
 import numpy as np
-import waveletHelper # for wavelet functions
+import SingularSuperletPY.waveletHelper # for wavelet functions
 
 def singularSuperlet(Fc, Nc, Fs, norm):
     t = waveletHelper.getWaveletTimeRange(Fc, Nc, Fs) # get the time range where the wavelet is defined

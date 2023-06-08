@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
 Name: SingularSuperletPY
-Version: 0.2
+Version: 0.3
 Summary: Python repo for Singular Superlet Transform (SST)
 Home-page: https://https://github.com/KaanKesgin/SingularSuperletPY
-Download-URL: https://github.com/KaanKesgin/SingularSuperletPY/archive/refs/tags/v_02.tar.gz
+Download-URL: https://github.com/KaanKesgin/SingularSuperletPY/archive/refs/tags/v_03.tar.gz
 Author: Kaan Kesgin
 Author-email: kesginkaan@gmail.com
 License: MIT

@@ -1,6 +1,6 @@
-from .generateData import generateComplexBursts
-from .waveletHelper import getWaveletTimeRange, normalize
+from SingularSuperletPY.generateData import generateComplexBursts
+from SingularSuperletPY.waveletHelper import getWaveletTimeRange, normalize
 
-from .sst import sst, singularSuperlet
-from .cwt import cwt, morlet
+from SingularSuperletPY.sst import sst, singularSuperlet
+from SingularSuperletPY.cwt import cwt, morlet
 

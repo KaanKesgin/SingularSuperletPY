@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-import generateData  # for generating data
-import sst # for wavelet functions - will be replaced after development since direct import is not necessary in this script
-import cwt # for wavelet functions - will be replaced after development since direct import is not necessary in this script
+import SingularSuperletPY.generateData  # for generating data
+import SingularSuperletPY.sst # for wavelet functions - will be replaced after development since direct import is not necessary in this script
+import SingularSuperletPY.cwt # for wavelet functions - will be replaced after development since direct import is not necessary in this script
 
 if __name__ == "__main__":
 
