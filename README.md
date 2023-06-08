@@ -36,7 +36,7 @@ norm      = "frequency-sqrt"      # normalization to be used, options are: "modu
 step      = 250                   # adaptive parameter for number of cycles increment per frequency band
 baseCycle = 3                     # number of baseline cycles to build the adaptive increments on 
 
-% perform time frequency decomposition
+# perform time frequency decomposition
 sstRez = sst.sst(y, frange, Fs, baseCycle, norm, step) # perform sst,  returns the scalogram output that is frequencyPoints x timePoints
 # cwtRez = cwt.cwt(y, frange, Fs, baseCycle, norm, step) # perform cwt,  uncomment if you wish to make comparisons with cwt, returns the scalogram output that is frequencyPoints x timePoints
 
