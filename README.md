@@ -9,7 +9,7 @@ _Please cite our research paper using when using SST in your research project._
 
 Quickstart 
 ============
-You can git clone or download this repository, then add execute run.py for a quick start and a comnparison with CWT using randomly generated data.
+You can git clone or download this repository, then add execute run.py for a quick start and a comparison with CWT using randomly generated data.
 
 Or simply Install the Python package using pip:
 ```
