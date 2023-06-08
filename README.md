@@ -9,11 +9,13 @@ _Please cite our research paper using when using SST in your research project._
 
 Quickstart 
 ============
-
-installation instructions
 You can git clone or download this repository, then add execute run.py for a quick start and a comnparison with CWT using randomly generated data.
 
-Or simply download with:
+Or simply Install the Python package using pip:
+```
+$ pip install SingularSuperletPY
+```
+Once the installation is successful you can test it on your own data as following:
 
 ```Python
 #import required packages
@@ -21,9 +23,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #import the functions
-import sst 
-# import cwt #uncomment if you want to compare the method (SST) with continuous wavelet transform (CWT)
-
+from SingularSuperletPY import sst
+# from SingularSuperletPY import cwt #uncomment if you want to compare the method (SST) with continuous wavelet transform (CWT)
 
 filename = "\path\to\your\data"   # define the path to your data
 y        = np.load(filename)	  # load your data
